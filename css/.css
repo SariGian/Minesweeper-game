@@ -1,0 +1,234 @@
+#Sari{
+  color: salmon;
+  font-size: 40px;
+}
+.back {
+  
+     background-image: url("../images/backg.png");
+    /* background-image: url(./images/a.webp); */
+    background-size: 100%;
+    background-position:bottom;
+    image-resolution: 200%;
+    /* margin-right: 0px;
+    margin-bottom: 0px;*/
+    margin-block: 156px; 
+    
+    background-repeat: no-repeat;
+    font-family:'Beyond Infinity - Demo','Chiller','BernhardFashion BT';
+    font-size:50px ;
+  }
+  
+  .endOfGame{
+    background-image: url("../images/winni3.webp");
+    background-size: 110%;
+    background-position:bottom;
+    image-resolution: 200%;
+    /* margin-right: 0px;
+    margin-bottom: 0px;*/
+    margin-block: 156px; 
+    
+    background-repeat: no-repeat;
+    font-family:'Chiller','BernhardFashion BT';
+  }
+  .failureOfGame{
+    background-image: url("../images/loser.jpg");
+  background-size: 50%;
+  background-position:bottom;
+  image-resolution: 200%;
+  /* margin-right: 0px;
+  margin-bottom: 0px;*/
+  margin-block: 156px; 
+  
+  background-repeat: no-repeat;
+  font-family:'Chiller','BernhardFashion BT';
+}
+
+  
+  h1 {
+    text-align: center;
+    color: #263be8;
+    margin-bottom: 0;
+    font-family:'Giddyup Std','Papyrus', 'Yu Gothic Light','Ink Free','PersonalManifesto','Nervous Rex','Segoe Script';
+    font-size: 100px;
+    font-kerning: inherit;
+}
+
+  
+  #im{
+      width: 400px;
+      margin-right:1000px;
+      position: fixed;
+      
+      
+      
+  }
+  
+  .minesweeper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  /* .btn {
+    background-color:lightcoral;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    font-family:'Yu Gothic Light','Bradley Hand ITC','BernhardFashion BT' ,'Segoe Script';
+    font-size: 20px;
+    font-weight: bold;
+    line-height: normal;
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 8px;
+  } */
+  .btn{
+      cursor: pointer;
+      font-family: 'Candara Light';
+      color: black;
+    width: 130px;
+    height: 40px;
+    line-height: 42px;
+    padding: 0;
+    margin: 10px;
+    border-radius: 10%;
+    border-block: black;
+    /* background:salmon; */
+  background: linear-gradient(0deg, salmon 0%, salmon 100%);
+  }
+  .btn:hover {
+    color: salmon;
+    background: transparent;
+     box-shadow:none;
+  }
+  .btn:before,
+  .btn:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: salmon;
+    box-shadow:
+     -1px -1px 5px 0px #fff,
+     7px 7px 20px 0px #0003,
+     4px 4px 5px 0px #0002;
+    transition:400ms ease all;
+  }
+  .btn:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+  }
+  .btn:hover:before,
+  .btn:hover:after{
+    width:100%;
+    transition:800ms ease all;
+  }
+  
+  .active {
+    background-color:olive
+  }
+  
+  .info {
+    font-family: 'Candara Light';
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  
+  table {
+    background-color:black;
+    border-spacing: 1px;
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    /* border-spacing: 2px; */
+    border-color: black;
+    border-style: solid;
+    border-radius:5px;
+    opacity: 50%;
+
+
+  }
+
+  td {
+    padding: 0;
+    width: 25px;
+    height: 25px;
+    background-color:lightpink;
+    opacity: 8px;
+    border: 1px black;
+    text-align: center;
+    line-height: 20px;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .mine {
+    background: #eeeeee url(../images/emoji.png) no-repeat center;
+    background-size: cover;
+  }
+  
+  .flag {
+    background: #eeeeee url(../images/flag.png) no-repeat center;
+    background-size: cover;
+  }
+  
+  .zero {
+    background-color: #eeeeee;
+  }
+  
+  .one {
+    background-color: #eeeeee;
+    color: #0332fe;
+  }
+  
+  .two {
+    background-color: #eeeeee;
+    color: #019f02;
+  }
+  
+  .three {
+    background-color: #eeeeee;
+    color: #ff2600;
+  }
+  
+  .four {
+    background-color: #eeeeee;
+    color: #93208f;
+  }
+  
+  .five {
+    background-color: #eeeeee;
+    color: #ff7f29;
+  }
+  
+  .six {
+    background-color: #eeeeee;
+    color: #ff3fff;
+  }
+  
+  .seven {
+    background-color: #eeeeee;
+    color: #53b8b4;
+  }
+  
+  .eight {
+    background-color: #eeeeee;
+    color: #22ee0f;
+  }
+  /* .cell {
+    padding: 10px;
+    font-size: 0;
+    background: LightBlue;
+    border: 1px solid Blue;
+    border-radius: 2px;
+  } */

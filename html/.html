@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Minesweeper</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/.css">
+    
+    <script src="../js/index.js" defer ></script>
+    
+  </head>
+  <body class="back" onload="enterdetails()">
+    <section class="minesweeper">
+      <h1 style="color: black;">Minesweeper</h1>
+
+      <div class="level">
+        <button class="btn active" id="beginner">Beginner</button>
+        <button class="btn" id="intermediate">Intermediate</button>
+        <button class="btn" id="advanced">Advanced</button>
+        <button class="btn" id="new-game">New game</button>
+      </div>
+
+      <p class="info">🏴 <span id="remaining-flags">10</span></p>
+
+      <table id="board"></table>
+      
+      <!-- <h2 id="demo"></h2> -->
+      <!-- <img src="./images/ok2.png" id="im"> -->
+    </section>
+  </body>
+</html> 
